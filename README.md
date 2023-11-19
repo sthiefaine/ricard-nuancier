@@ -1,6 +1,6 @@
 # NUANCIER RICARD
 
-Ce projet a pour but d'afficher si notre ecran les supportes les couleurs en format P3
+Ce projet a pour but d'afficher si notre ecran les supportes [les couleurs en format P3](https://webkit.org/blog/10042/wide-gamut-color-in-css-with-display-p3/)
 
 Pour ça on utilise une règle spécifique @supports (color: color(display-p3 1 1 1))
 
