@@ -24,7 +24,10 @@ function App() {
           <label className="label">flamby</label>
         </section>
       </main>
-      <footer className="footer">nuancier</footer>
+      <footer className="footer">
+        nuancier <span className="p3">Compatible DCI-P3</span>{" "}
+        <span className="notp3">Incompatible DCI-P3 </span>
+      </footer>
     </>
   );
 }

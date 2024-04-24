@@ -83,3 +83,23 @@
 .color4 {
   background-color: var(--color-4);
 }
+
+.p3 {
+  display: none;
+  margin-left: 10px;
+}
+
+.notp3 {
+  display: block;
+  margin-left: 10px;
+}
+
+@media (color-gamut: p3) {
+  .p3 {
+    display: block;
+  }
+
+  .notp3 {
+    display: none;
+  }
+}
